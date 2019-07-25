@@ -1,6 +1,6 @@
 {
   "name": "marbles/iconpicker",
-  "description": "Craft Iconpicker marbles field type that offers end-users an easy way to pick an icon/symbol from a .woff or .ttf font file.",
+  "description": "Craft Iconpicker field type that offers end-users an easy way to pick an icon/symbol from a .woff or .ttf font file.",
   "version": "1.0.6",
   "keywords": [
     "craft",
