@@ -219,17 +219,26 @@ class Iconpicker extends Field implements PreviewableFieldInterface
 
         if (!empty($this->iconFont)) {
             $fonts = $this->getFonts();
-            if (!empty($fonts) && isset($fonts[$this->iconFont])) {
+            if (!empty($fonts) && !empty($this->iconFont) && isset($fonts[$this->iconFont])) {
                 $font = Font::load($fonts[$this->iconFont]['path']);
                 $font->parse();
 
                 if ($font !== null) {
                     return $font->getUnicodeCharMap();
                 }
+            } elseif(!empty($fonts)) {
+                $font = Font::load($fonts[array_key_first($fonts)]['path']);
+                $font->parse();
+
+                if ($font !== null) {
+                    return $font->getUnicodeCharMap();
+                }
+            } else {
+                return array();
             }
         }
 
-        return null;
+        return array();
     }
 
     /**
