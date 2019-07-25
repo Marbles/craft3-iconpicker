@@ -77,7 +77,7 @@ class Iconpicker extends Field implements PreviewableFieldInterface
     /**
      * @var string The current selected iconfont to use
      */
-    public $iconFont = "";
+    public $iconFont = "fa-brands-400-ttf";
 
     /**
      * @var array A list with the avaiable fonts
