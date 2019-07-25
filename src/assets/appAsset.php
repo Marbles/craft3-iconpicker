@@ -7,7 +7,7 @@
  *
  * This asset will publish all css and js needed voor the backend application
  */
-namespace plugins\dolphiq\iconpicker\assets;
+namespace plugins\marbles\iconpicker\assets;
 
 use craft\web\AssetBundle;
 use craft\web\assets\cp\CpAsset;
