@@ -77,7 +77,7 @@ class Iconpicker extends Field implements PreviewableFieldInterface
     /**
      * @var string The current selected iconfont to use
      */
-    public $iconFont = "fa-brands-400-ttf";
+    public $iconFont = "";
 
     /**
      * @var array A list with the avaiable fonts
@@ -213,6 +213,10 @@ class Iconpicker extends Field implements PreviewableFieldInterface
      */
     private function getIcons()
     {
+        if (empty($this->iconFont)) {
+            $this->iconFont = 'fa-brands-400-ttf';
+        }
+
         if (!empty($this->iconFont)) {
             $fonts = $this->getFonts();
             if (!empty($fonts) && isset($fonts[$this->iconFont])) {
