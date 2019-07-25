@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "plugins\\dolphiq\\iconpicker\\": "src/"
+      "plugins\\marbles\\iconpicker\\": "src/"
     }
   },
   "authors": [

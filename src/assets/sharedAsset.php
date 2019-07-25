@@ -8,7 +8,7 @@
  * This asset will copy all fonts to the published directory.
  * It will be used on the front and backend of the application
  */
-namespace plugins\dolphiq\iconpicker\assets;
+namespace plugins\marbles\iconpicker\assets;
 
 use craft\web\AssetBundle;
 

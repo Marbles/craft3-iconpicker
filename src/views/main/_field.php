@@ -6,8 +6,8 @@
  * Time: 13:17
  *
  * @var string $name
- * @var \plugins\dolphiq\iconpicker\models\IconpickerModel $value
- * @var \plugins\dolphiq\iconpicker\fields\Iconpicker $field
+ * @var \plugins\marbles\iconpicker\models\IconpickerModel $value
+ * @var \plugins\marbles\iconpicker\fields\Iconpicker $field
  * @var array $icons
  */
 

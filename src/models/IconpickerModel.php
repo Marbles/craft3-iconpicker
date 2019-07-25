@@ -15,7 +15,7 @@
  * @property $iconSpan string
  */
 
-namespace plugins\dolphiq\iconpicker\models;
+namespace plugins\marbles\iconpicker\models;
 
 use Craft;
 use craft\base\Model;
