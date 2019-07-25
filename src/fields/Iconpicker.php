@@ -126,7 +126,7 @@ class Iconpicker extends Field implements PreviewableFieldInterface
         Craft::$app->view->registerAssetBundle(\plugins\dolphiq\iconpicker\assets\appAsset::class);
 
         // Display the field
-        return Craft::$app->getView()->render('@vendor/dolphiq/iconpicker/src/views/main/_field', [
+        return Craft::$app->getView()->render('@vendor/marbles/iconpicker/src/views/main/_field', [
             'name' => $this->handle,
             'value' => $value,
             'field' => $this,

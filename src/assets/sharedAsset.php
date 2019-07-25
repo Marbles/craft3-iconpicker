@@ -17,7 +17,7 @@ class sharedAsset extends AssetBundle
     public function init()
     {
         // define the path that your publishable resources live
-        $this->sourcePath = '@vendor/dolphiq/iconpicker/src/resources-shared';
+        $this->sourcePath = '@vendor/marbles/iconpicker/src/resources-shared';
 
         // try to find the file, if scss exists,
         if(file_exists(__DIR__. '/../resources-shared/css/fonts.css')) {

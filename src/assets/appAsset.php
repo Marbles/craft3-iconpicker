@@ -17,7 +17,7 @@ class appAsset extends AssetBundle
     public function init()
     {
         // define the path that your publishable resources live
-        $this->sourcePath = '@vendor/dolphiq/iconpicker/src/resources-app';
+        $this->sourcePath = '@vendor/marbles/iconpicker/src/resources-app';
 
         // define the dependencies
         $this->depends = [
