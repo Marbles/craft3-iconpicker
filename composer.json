@@ -33,7 +33,7 @@
   "extra": {
     "handle": "marbles-iconpicker",
     "name": "Iconpicker",
-    "description": "Craft Iconpicker field type that offers end-users an easy way to pick an icon/symbol from a .woff or .ttf font file.",
+    "description": "Craft marbles Iconpicker field type that offers end-users an easy way to pick an icon/symbol from a .woff or .ttf font file.",
     "schemaVersion": "1.0.0",
     "developer": "Marbles",
     "developerUrl": "https://dmarbles.be/",
