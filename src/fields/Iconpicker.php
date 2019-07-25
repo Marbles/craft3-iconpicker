@@ -28,7 +28,7 @@ class Iconpicker extends Field implements PreviewableFieldInterface
     /**
      * @var string The directory where the fonts are
      */
-    const FONT_DIR = '@vendor/dolphiq/iconpicker/src/resources-shared/fonts/';
+    const FONT_DIR = '@vendor/marbles/iconpicker/src/resources-shared/fonts/';
 
     /**
      * @var array All extentions that are allowed to be imported as a font
