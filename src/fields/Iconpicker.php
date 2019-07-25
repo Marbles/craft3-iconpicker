@@ -111,7 +111,7 @@ class Iconpicker extends Field implements PreviewableFieldInterface
      */
     public function getSettingsHtml()
     {
-        return Craft::$app->getView()->renderTemplate('dolphiq-iconpicker/fieldSettings', [
+        return Craft::$app->getView()->renderTemplate('marbles-iconpicker/fieldSettings', [
             'field' => $this,
             'fonts' => $this->getFontOptions()
         ]);
